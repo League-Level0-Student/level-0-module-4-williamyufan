@@ -8,7 +8,18 @@ public class OwnAdventure {
 		
 		if (Plot.equals("go back to the forest" )) {
 			
-			JOptionPane.showMessageDialog(null, "You Died because a tree hit on the head.");
+			JOptionPane.showMessageDialog(null, "You are badly injured because a tree hit you leg.");
+			String plott=JOptionPane.showInputDialog(null, "You have another two choices to make: \"break your arm free and lose your arm\" or \"call for help\"");
+			if (plott.equals("break your arm free and lose your arm")) {
+				JOptionPane.showMessageDialog(null, "You Survived!");
+				
+			}
+			else if(plott.equals( "call for help")) {
+				JOptionPane.showMessageDialog(null, "You Died because you lose too much blood.");
+			}
+			else {
+				JOptionPane.showMessageDialog(null, "You died anyway.");
+			}
 			
 		}
 		else if (Plot.equals("Enter a house")) {
