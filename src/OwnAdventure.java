@@ -15,7 +15,7 @@ public class OwnAdventure {
 				
 			}
 			else if(plott.equals( "call for help")) {
-				JOptionPane.showMessageDialog(null, "You Died because you lose too much blood.");
+				JOptionPane.showMessageDialog(null, "You Died because you lose too much blood and no one came.");
 			}
 			else {
 				JOptionPane.showMessageDialog(null, "You died anyway.");
